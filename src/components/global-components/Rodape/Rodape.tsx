@@ -1,16 +1,16 @@
+import { QrCodeAnimation } from '@/utils/QrCodeAnimation';
 import Image from 'next/image';
-import logoRaptor from '@/assets/logo-raptor.png';
-import qrCode from '@/assets/qr-code.png';
-import { FiMail } from 'react-icons/fi';
+import logoRaptor from 'public/logo-raptor.png';
+import qrCode from 'public/qr-code.png';
 import {
-  FaWhatsapp,
-  FaInstagram,
-  FaGithub,
   FaAngleDoubleRight,
+  FaGithub,
+  FaInstagram,
+  FaWhatsapp,
 } from 'react-icons/fa';
-import Animacao from './animacao';
+import { FiMail } from 'react-icons/fi';
 
-export default function Rodape() {
+export const Rodape = () =>{
   return (
     <footer className="bg-black p-10 w-full items-center lg:justify-center lg:p-20 lg:flex">
       <div className="flex flex-col -mt-10 lg:w-1/3">
@@ -77,7 +77,7 @@ export default function Rodape() {
             className="w-1/3 self-start lg:w-2/4"
           />
           <span className="lg:hidden">
-            <Animacao />
+            <QrCodeAnimation />
           </span>
         </div>
       </div>
@@ -92,7 +92,7 @@ export default function Rodape() {
           alt="QR Code redirecionando para o WhatsApp da Raptor. Link: https://wa.me/5521966856832"
           className="w-1/3 lg:w-2/4"
         />
-        <Animacao />
+        <QrCodeAnimation />
       </div>
     </footer>
   );

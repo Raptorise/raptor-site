@@ -1,8 +1,8 @@
 'use client';
+import * as animationData from 'public/animations/qr-code.json';
 import Lottie from 'react-lottie';
-import * as animationData from '@/assets/animations/qr-code.json';
 
-export default function Animacao() {
+export const QrCodeAnimation = () => {
   const defaultOptions = {
     loop: true,
     autoplay: true,

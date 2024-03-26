@@ -1,8 +1,8 @@
-import Button from '../_ui/Button';
+import { Button } from '@/components/ui/Button';
 
-export default function Atahos() {
+export const Atalhos = () => {
   return (
-    <section className="flex mt-40 justify-between" style={{ width: '30%' }}>
+    <section className="flex w-3/4 justify-center gap-2 mt-40 ">
       <Button text="FAQ" />
       <Button text="Serviços" />
       <Button text="Produtos" />

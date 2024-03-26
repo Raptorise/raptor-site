@@ -1,8 +1,7 @@
 import Image from 'next/image';
-import orb from '@/assets/orb.png';
-import dino from '@/assets/dino_sf.png';
+import orb from 'public/orb.png';
 
-export default function Sobre() {
+export const Sobre = () => {
   return (
     <section id="sobre" className="mt-44 flex justify-center">
       <div className="bg-white w-5/6 rounded-lg">

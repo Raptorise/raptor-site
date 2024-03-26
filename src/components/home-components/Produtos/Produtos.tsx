@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import ambientesVirtuais from '@/assets/produtos/ambientes-virtuais.produto.png';
-import sistemaBancoObjetos from '@/assets/produtos/sistema-de-banco-objetos.produto.png';
-import sistemaGerenciamentoSolicitacoes from '@/assets/produtos/sistema-gerenciamento-solicitacoes.produto.png';
+import ambientesVirtuais from 'public/produtos/ambientes-virtuais.produto.png';
+import sistemaBancoObjetos from 'public/produtos/sistema-de-banco-objetos.produto.png';
+import sistemaGerenciamentoSolicitacoes from 'public/produtos/sistema-gerenciamento-solicitacoes.produto.png';
 
-export default function Produtos() {
+export const Produtos = () => {
   return (
     <section
       id="produtos"

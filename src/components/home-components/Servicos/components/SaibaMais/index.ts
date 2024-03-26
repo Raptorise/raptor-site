@@ -1,0 +1,1 @@
+export { SaibaMais } from './SaibaMais';

@@ -1,0 +1,1 @@
+export { Atalhos } from './Atalhos';

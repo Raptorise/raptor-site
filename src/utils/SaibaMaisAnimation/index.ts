@@ -1,0 +1,1 @@
+export { SaibaMaisAnimation } from './SaibaMaisAnimation';
